@@ -9,33 +9,72 @@
 
 <body>
     <nav>
+
         <center>
-            <h1>Form</h1>
+            <h1>COLLEGE FORM</h1>
         </center>
-        <form action="first name">First name</form>
-        <br>
-        <input type="text" id="Fname" name="FIRST NAME">
-        <br>
-        <br>
-        <label for="Lname">Last name</label>
+        <form action="first name"> Name</form>
+        <input type="text" id="Fname" name="NAME" maxlength="6">
         <br>
         <br>
-        <input type="text" id="Fname" name="LAST NAME">
+        <label for="Lname">Father's name</label>
+        <br>
+        <input type="text" id="Fname" name="fathers name" maxlength="6">
         <br>
         <br>
         <label for="email">Email</label>
         <br>
-        <br>
-        <input type="text" id="email" name="EMAIL">
-        <br>
-        <br>
-        <label for="comments">Comments</labeL>
+        <input type="text" id="email" name="EMAIL" required="required">
         <br>
         <br>
-        <textarea name="reviews" id="comment" cols="30" rows="10">Reviews</textarea>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" required="required">
+        <br>
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" name="male" value="make">
+        <label for="female">Female</label>
+        <input type="radio" name="femle">
         <br>
         <br>
-        <button>Submit</button>
+        <label for="age">Age</label>
+        <input type="number" name="age">
+        <br>
+        <br>
+        <label for="date of birth">Date of birth</label>
+        <input type="date">
+        <br>
+        <br>
+        <label for="ssc marks">SSC Marks</label>
+        <input type="number">
+        <br>
+        <br>
+        <label for="SSC passing year">SSC Passing year</label>
+        <input type="number" min="1900" max="2099" step="1" value="2023">
+        <br>
+        <br>
+        <label for="matric passing year">SSC board</label>
+        <br>
+        <br>
+        <label for="sindh">Sindh board</label>
+        <input type="checkbox" name="service" value="Sindh board">
+        <label for="fedral">Fedral board</label>
+        <input type="checkbox" name="service" >
+        <br>
+        <br>
+        <label for="faculty">Faculty</label>
+        <select name="faculty" id="">
+            <option value="Pre medical">Pre medical</option>
+            <option value="re engeenring">Pre engeenring</option>
+            <option value="computer science">Computer science</option>
+            <option value="commerce">Commerce</option>
+            <option value="humanities">Humanities</option>
+        </select>
+        <br>
+        <br>
+        <button size="50">Submit</button>
+        </form>
     </nav>
 </body>
 
